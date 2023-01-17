@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'Lexen Deca';
+  src: url(fonts/LexendDeca-Regular.ttf) format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{  
+  font-family: 'Inter';
+  src: url(fonts/Inter-Medium.ttf) format('truetype'); 
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face{  
+  font-family: 'Inter';
+  src: url(fonts/Inter-Regular.ttf) format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --blue: #3EA1DB;
+  --blue-dark: #574AE8;
+  --white: #FFF;
+
+  --title: #313131;
+  --text: #717171;
+  
+  --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box-size{
+  max-width: 900px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+
+body{
+  background-color: #F3F5F7;
+}
+
+/* Cabecalho */
+header{
+  height: 140px;
+  width: 100%;
+  background: var(--linear);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 60px;
+  
+}
+
+.titles{
+  font-family: 'Lexen Deca';
+  color: var(--white);
+  font-weight: 400;
+  font-size: 24px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar-search{
+  width: 100%;
+}
+
+.bar-search input{
+  width: 100%;
+  height: 35px;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: var(--white);
+}
+
+.bar-search input::placeholder{
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Inter';
+  padding: 21px  
+}
+
+/* conteudo principal */
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.box{
+  font-family: 'Lexen Deca';
+  background-color: var(--white);
+  margin-bottom: 25px;
+  padding: 25px 25px;
+}
+
+.data-box{
+ 
+  color:var(--text);
+
+  padding-bottom: 22px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.icon-favorite{
+  color: var(--blue-dark);
+}
+
+.title-box{
+  font-weight: normal;
+  padding-bottom: 8px;
+}
+
+.text-box{
+  color: var(--text);
+}
