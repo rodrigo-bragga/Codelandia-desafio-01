@@ -72,6 +72,16 @@ header{
 
 .bar-search{
   width: 100%;
+  display: inline;
+}
+
+.btn-search{
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  background: transparent;
+  border: none;
+  color: var(--white);
 }
 
 .bar-search input{
@@ -80,12 +90,14 @@ header{
   background: rgba(255, 255, 255, 0.2);
   border: none;
   color: var(--white);
+  padding-left: 40px;
+  border-radius: 5px;
 }
 
 .bar-search input::placeholder{
   color: rgba(255, 255, 255, 0.5);
   font-family: 'Inter';
-  padding: 21px  
+  padding: 21px 0;
 }
 
 /* conteudo principal */
