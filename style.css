@@ -130,6 +130,7 @@ main{
 
 .icon-favorite{
   color: var(--blue-dark);
+  padding-right: 27px;
 }
 
 .title-box{
@@ -139,4 +140,18 @@ main{
 
 .text-box{
   color: var(--text);
+}
+
+.not-like{
+  z-index: 1;
+  position: relative;
+}
+
+.yes-like{
+  display: none;
+}
+
+.liked{
+  z-index: 10;
+  position: relative;
 }
