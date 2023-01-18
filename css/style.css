@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'Lexen Deca';
-  src: url(fonts/LexendDeca-Regular.ttf) format('truetype'); 
+  src: url(../fonts/LexendDeca-Regular.ttf) format('truetype'); 
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face{  
   font-family: 'Inter';
-  src: url(fonts/Inter-Medium.ttf) format('truetype'); 
+  src: url(../fonts/Inter-Medium.ttf) format('truetype'); 
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face{  
   font-family: 'Inter';
-  src: url(fonts/Inter-Regular.ttf) format('truetype'); 
+  src: url(../fonts/Inter-Regular.ttf) format('truetype'); 
   font-weight: normal;
   font-style: normal;
 }
@@ -131,6 +131,10 @@ main{
 .icon-favorite{
   color: var(--blue-dark);
   padding-right: 27px;
+}
+
+.icon-favorite:hover{
+  cursor: pointer;
 }
 
 .title-box{
